@@ -1,0 +1,23 @@
+.btn__primary {
+    padding: 20px 40px;
+    background: #e50914;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    word-break: normal;
+    cursor: pointer;
+}
+
+.btn__primary:disabled {
+    padding: 20px 40px;
+    background: grey;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    word-break: normal;
+    cursor: pointer;
+}

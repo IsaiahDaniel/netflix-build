@@ -1,0 +1,51 @@
+.login {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../assets/netflix-home.jpeg") center center/cover no-repeat;
+    height: 100vh;
+}
+
+.login__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+.signup__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.85);
+    transform: translate(-50%, -50%);
+    min-width: 600px;
+    padding: 60px 50px; 
+    border-radius: 10px;
+}
+
+.signup__content h3 {
+    text-align: left;
+}
+
+.login__content h1 {
+    font-size: 3rem;
+}
+
+.login__content h3 {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.login__cta {
+    display: flex;
+    width: 40%;
+}
+
+@media(max-width: 768px){
+    .login__cta{
+        flex-direction: column;
+    }
+}

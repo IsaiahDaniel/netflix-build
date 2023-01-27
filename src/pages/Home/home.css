@@ -1,0 +1,35 @@
+.home {
+  padding-top: 230px;
+  color: white;
+}
+
+.home__title {
+  font-size: 3rem;
+}
+
+.home__wrapper {
+  padding-left: 30px;
+}
+
+.home--fadeBottom {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111)
+}
+
+
+.home__button {
+    background-color: rgba(51, 51, 51, 0.5);
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    margin-right: 30px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.home__button:hover {
+    color:#111;
+    background: #e6e6e6;
+    transition: all 0.2s;
+}

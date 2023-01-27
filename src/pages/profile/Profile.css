@@ -1,0 +1,57 @@
+.profile {
+    color: white;
+    width: 800px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile__title {
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile__details {
+    display: flex;
+    width: 100%;
+}
+
+.profile__details a img {
+    width: 120px;
+    margin-right: 30px;
+}
+
+.profile__detailsEmail  {
+    background: gray;
+    padding: 20px;
+    width: 32vw;
+}
+
+.profile__detailsPlans {
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.profile__subscriptionPlan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 768px){
+
+    .profile__details a img {
+        display: none;
+    }
+    
+
+    .profile {
+        width: 400px;
+        margin: auto;
+    }
+}
